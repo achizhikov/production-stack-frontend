@@ -5,9 +5,12 @@ module.exports = {
     jest: true
   },
   extends: [
+    'eslint:recommended',
     'airbnb-typescript',
     'plugin:react/recommended',
-    'plugin:i18next/recommended'
+    'plugin:i18next/recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended'
   ], // 'airbnb'
   overrides: [],
   parserOptions: {
@@ -25,6 +28,7 @@ module.exports = {
     'react/jsx-filename-extension': [1, { extensions: ['.ts', '.tsx'] }],
     'import/no-extraneous-dependencies': 'off',
     'i18next/no-literal-string': [2, { markupOnly: true }],
-    'max-len': [2, { ignoreComments: true }]
+    'max-len': [2, { ignoreComments: true }],
+    '@typescript-eslint/ban-ts-comment': 'off'
   }
 }
