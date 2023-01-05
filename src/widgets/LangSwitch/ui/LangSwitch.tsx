@@ -18,7 +18,7 @@ export const LangSwitch = ({ className, short }: LangSwitchProps) => {
   return (
     <Button
       className={classNames('', {}, [className])}
-      variant={ButtonVariant.CLEAR}
+      variant={ButtonVariant.CLEAR_INVERTED}
       onClick={toggle}
     >
       {t(short ? 'Short Lang' : 'Lang')}
