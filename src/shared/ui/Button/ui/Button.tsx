@@ -4,6 +4,7 @@ import cls from './Button.module.scss';
 
 export enum ButtonVariant {
   CLEAR = 'clear',
+  OUTLINE = 'outline',
 }
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -17,7 +18,8 @@ export const Button: FC<ButtonProps> = props => {
     <button
       type='button'
       className={classNames(cls.Button, {}, [className, cls[variant]])}
-      {...otherProps}>
+      {...otherProps}
+    >
       {children}
     </button>
   );

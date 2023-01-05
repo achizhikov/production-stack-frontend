@@ -18,7 +18,8 @@ export const LangSwitch = ({ className }: LangSwitchProps) => {
     <Button
       className={classNames('', {}, [className])}
       variant={ButtonVariant.CLEAR}
-      onClick={toggle}>
+      onClick={toggle}
+    >
       {t('Lang')}
     </Button>
   );
