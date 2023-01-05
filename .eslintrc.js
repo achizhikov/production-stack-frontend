@@ -25,7 +25,7 @@ module.exports = {
     sourceType: 'module',
     project: './tsconfig.json'
   },
-  plugins: ['react', 'import', 'i18next', '@typescript-eslint'],
+  plugins: ['react', 'import', 'i18next', '@typescript-eslint', 'react-hooks'],
   rules: {
     indent: [2, 2],
     'react/jsx-indent': [2, 2],
@@ -36,6 +36,8 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'i18next/no-literal-string': [2, { markupOnly: true }],
     'max-len': [2, { ignoreComments: true }],
-    '@typescript-eslint/ban-ts-comment': 'off'
+    '@typescript-eslint/ban-ts-comment': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'error'
   }
 }
