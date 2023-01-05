@@ -1,10 +1,12 @@
 {
   "Test example": "Test example",
   "Lang": "Русский",
-  "Main Page": "Main Page",
-  "Home": "Home",
+  "Short Lang": "РУС",
+  "Main page": "Main page",
+  "Main": "Home",
   "About": "About",
   "Page not found": "Page not found",
   "Something went wrong": "Something went wrong",
-  "Reload page": "Reload page"
+  "Reload page": "Reload page",
+  "Toggle": "Toggle"
 }
