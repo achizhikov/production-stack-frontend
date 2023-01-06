@@ -38,6 +38,7 @@ module.exports = {
     'max-len': [2, { ignoreComments: true }],
     '@typescript-eslint/ban-ts-comment': 'off',
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'error'
+    'react-hooks/exhaustive-deps': 'error',
+    'no-param-reassign': 'off'
   }
 }

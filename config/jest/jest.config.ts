@@ -63,7 +63,9 @@ export default {
   // globalTeardown: undefined,
 
   // A set of global variables that need to be available in all test environments
-  // globals: {},
+  globals: {
+    __IS_DEV__: true
+  },
 
   // The maximum amount of workers used to run your tests. Can be specified as % or a number. E.g. maxWorkers: 10% will use 10% of your CPU amount + 1 as the maximum worker number. maxWorkers: 2 will use a maximum of 2 workers.
   // maxWorkers: "50%",
@@ -82,7 +84,7 @@ export default {
     'ts',
     'tsx',
     'json',
-    'node',
+    'node'
   ],
 
   // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
@@ -160,8 +162,8 @@ export default {
   // The glob patterns Jest uses to detect test files
   testMatch: [
     // Обнаружил разницу между МАК ОС и ВИНДОУС!!!
-    '<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)',
-  ],
+    '<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)'
+  ]
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
   // testPathIgnorePatterns: [
@@ -197,4 +199,4 @@ export default {
 
   // Whether to use watchman for file crawling
   // watchman: true,
-};
+}
