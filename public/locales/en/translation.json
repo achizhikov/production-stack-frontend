@@ -9,5 +9,7 @@
   "Something went wrong": "Something went wrong",
   "Reload page": "Reload page",
   "Toggle": "Toggle",
-  "Login": "Login"
+  "Login": "Login",
+  "Enter username:": "Enter username:",
+  "Enter password:": "Enter password:"
 }

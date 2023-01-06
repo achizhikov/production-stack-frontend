@@ -9,5 +9,7 @@
   "Something went wrong": "Что-то пошло не так",
   "Reload page": "Обновить",
   "Toggle": "Переключить",
-  "Login": "Войти"
+  "Login": "Войти",
+  "Enter username:": "Введите имя пользователя:",
+  "Enter password:": "Введите пароль:"
 }
