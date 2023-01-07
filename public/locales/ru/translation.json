@@ -10,6 +10,9 @@
   "Reload page": "Обновить",
   "Toggle": "Переключить",
   "Login": "Войти",
+  "Logout": "Выйти",
   "Enter username:": "Введите имя пользователя:",
-  "Enter password:": "Введите пароль:"
+  "Enter password:": "Введите пароль:",
+  "Auth form": "Форма авторизации",
+  "Incorrect username or password": "Неверное имя пользователя или пароль"
 }

@@ -10,6 +10,9 @@
   "Reload page": "Reload page",
   "Toggle": "Toggle",
   "Login": "Login",
+  "Logout": "Logout",
   "Enter username:": "Enter username:",
-  "Enter password:": "Enter password:"
+  "Enter password:": "Enter password:",
+  "Auth form": "Authorization form",
+  "Incorrect username or password": "Incorrect username or password"
 }

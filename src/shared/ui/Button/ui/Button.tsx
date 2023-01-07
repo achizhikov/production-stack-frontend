@@ -21,6 +21,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: ButtonVariant
   square?: boolean
   size?: ButtonSize
+  disabled?: boolean
 }
 
 export const Button: FC<ButtonProps> = props => {
@@ -30,17 +31,22 @@ export const Button: FC<ButtonProps> = props => {
     variant,
     square,
     size = ButtonSize.M,
+    disabled,
     ...otherProps
   } = props
+
   const mods: Record<string, boolean> = {
     [cls[variant]]: true,
     [cls.square]: square,
-    [cls[size]]: true
+    [cls[size]]: true,
+    [cls.disabled]: disabled
   }
+
   return (
     <button
       type='button'
       className={classNames(cls.Button, mods, [className])}
+      disabled={disabled}
       {...otherProps}
     >
       {children}
